@@ -33,6 +33,7 @@ dependencies {
 	implementation "org.springframework.security:spring-security-ldap"
 	implementation "com.unboundid:unboundid-ldapsdk"
 
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'

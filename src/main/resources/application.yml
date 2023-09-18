@@ -1,3 +1,9 @@
+server:
+  port: 8443
+  ssl:
+    keystore: file:///Users/wonjong/Documents/Study/Projects/Spring in Action/taco-cloud/mykeys.jks
+    key-store-password: password
+    key-password: password
 spring:
   thymeleaf:
     cache: false
@@ -13,3 +19,11 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
         format_sql: true
         show_sql: true
+
+taco:
+  orders:
+    pageSize: 10
+
+logging:
+  level:
+    tacos: DEBUG
